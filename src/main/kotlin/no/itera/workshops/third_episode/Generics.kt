@@ -14,11 +14,13 @@ class Generators {
     }
 
     fun addStringGenerator(generator: Generator<String>) {
-        generators.add(generator)
+//        TODO: Does not compile:
+//        generators.add(generator)
     }
 
     fun addIntegerGenerator(generator: Generator<Int>) {
-        generators.add(generator)
+//        TODO: Does not compile
+//        generators.add(generator)
     }
 }
 
@@ -29,5 +31,6 @@ fun consumer(list: ArrayList<String>) {
 }
 
 fun main(args: Array<String>) {
-    consumer(arrayListOf(1, 2, 3, 4, 5))
+//    TODO: Does not compile
+//    consumer(arrayListOf(1, 2, 3, 4, 5))
 }

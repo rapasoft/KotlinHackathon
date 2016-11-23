@@ -7,9 +7,14 @@ public class JavaInteroopTest {
 
     @Test
     public void testCallStaticMethods() {
-//        TODO: Uncomment so that it compiles
-//        SomeUtilityClass.logger.isDebugEnabled();
-        throw new NotImplementedError();
+        boolean implemented = false;
+
+//        TODO: Uncomment after it compiles
+//        implemented = SomeUtilityClass.logger.isDebugEnabled();
+
+        if (!implemented) {
+            throw new NotImplementedError();
+        }
     }
 
 }
