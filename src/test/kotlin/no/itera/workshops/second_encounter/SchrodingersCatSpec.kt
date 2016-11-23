@@ -1,9 +1,7 @@
 package no.itera.workshops.second_encounter
 
-import com.natpryce.hamkrest.Matcher
 import com.natpryce.hamkrest.assertion.assertThat
 import com.natpryce.hamkrest.equalTo
-import com.natpryce.hamkrest.throws
 import no.itera.workshops.second_encounter.SchrodingersCat.*
 import org.jetbrains.spek.api.Spek
 import org.jetbrains.spek.api.dsl.describe
